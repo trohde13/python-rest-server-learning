@@ -41,9 +41,8 @@ Set up a file called "hello.py". In that file I entered the following code:
 
 `@app.route('/')`
 
-`def hello_world():`
-
-`return 'Autobots, Roll Out!'`
+```def hello_world():
+    return 'Autobots, Roll Out!'```
 
 This allowed the return to appear on the development url. 
 
