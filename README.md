@@ -35,13 +35,12 @@ From here we go to the Quickstart page (https://flask.palletsprojects.com/en/1.1
 
 Set up a file called "hello.py". In that file I entered the following code:
 
-`from flask import Flask `
+        from flask import Flask 
+        app = Flask(__name__)
 
-`app = Flask(__name__)`
-
->@app.route('/')
-def hello_world():
-    return 'Autobots, Roll Out!'
+        @app.route('/')
+        def hello_world():
+            return 'Autobots, Roll Out!'
 
 This allowed the return to appear on the development url. 
 
